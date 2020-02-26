@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/unit18Populater";
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
